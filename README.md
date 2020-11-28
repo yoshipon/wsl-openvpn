@@ -9,10 +9,10 @@ Any [Issues](https://github.com/yoshipon/wsl-openvpn/issues) and [PRs](https://g
 ## Quick Summary
 The main idea is to connect WSL2 to LAN through the Windows host by using VPN bridging to the physical NIC.
 This repository include
-* `server.ovpn`: a configuration file for an OpenVPN server on the Windows host
-* `client.conf`: a configuration file for an OpenVPN client on WSL2
-* `wsl.conf`: a configuration file for WSL to rename the host name of WSL2
-* `start-services.sh`: a script file to start network services and obtain an IP address from a DHCP server
+* `conf/server.ovpn`: a configuration file for an OpenVPN server on the Windows host
+* `conf/client.conf`: a configuration file for an OpenVPN client on WSL2
+* `conf/wsl.conf`: a configuration file for WSL to rename the host name of WSL2
+* `bin/start-services.sh`: a script file to start network services and obtain an IP address from a DHCP server
 
 ## Getting Started
 ### Configuration of Windows
