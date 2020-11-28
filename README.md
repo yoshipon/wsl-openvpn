@@ -30,7 +30,7 @@ This repository include
 10. Start OpenVPN server on your Windows host
 9. Reboot your WSL2 by using `wsl.exe --shutdown`
 11. Start WSL2 and execute `start-services.sh`
-12. Now your WSL2 has a network adapter `tap0` and any machines in LAN can access your WSL2 with `[wsl-hostname].local`
+12. Now your WSL2 has a network adapter `tap0` and any machines in LAN can access your WSL2 with `ssh [wsl-hostname].local`
 
 ## Tips
 * If the network speed gets extremely slow (e.g., 0.5Mbps), rebooting your machine sometimes resolves this problem.
